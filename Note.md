@@ -16,3 +16,13 @@ src/store/balance/reducer.js:
 Step 4: Integrating the store with the React app
 src/index.js
 **_this is installed for crom Redux DevTools_**
+===================================================
+Dispatch Action: Sending data to the store
+Step 1: Define an action creator
+// src/store/balance/actions.js
+Steps 2 & 3: Import useDispatch and dispatch the action
+App.js
+======================================================
+Reducer: Intercept action and update the redux state
+Step 1: Add a case to our reducer
+// src/store/balance/reducer.js
