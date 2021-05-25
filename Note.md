@@ -26,3 +26,10 @@ App.js
 Reducer: Intercept action and update the redux state
 Step 1: Add a case to our reducer
 // src/store/balance/reducer.js
+=======================================================
+Selector: Get data from the store
+Step 1: Create our selector function
+// src/store/balance/selectors.js
+
+Step 2: Use the selector in a component
+// App.js
